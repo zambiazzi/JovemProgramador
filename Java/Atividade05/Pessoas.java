@@ -17,10 +17,10 @@ public class Pessoas {
         Funcionario Lucas = new Funcionario("Lucas", 17, 5000.52f);
         Lucas.receberAumento(500f);
         Lucas.fazerAniversario();
-        Cliente Diabo = new Cliente("Diabo", 2, 1000f);
-        System.out.println("Nome: "+Diabo.nome+" Sal·rio: "+Diabo.limiteCredito+" Idade: "+Diabo.idade);
-        Diabo.aumentarCredito(500f);
-        System.out.println("Limite: "+Diabo.limiteCredito);
+        Cliente Maria = new Cliente("Maria", 16, 1000f);
+        System.out.println("Nome: "+Maria.nome+" Sal√°rio: "+Maria.limiteCredito+" Idade: "+Maria.idade);
+        Maria.aumentarCredito(500f);
+        System.out.println("Limite: "+Maria.limiteCredito);
         
     }
     
