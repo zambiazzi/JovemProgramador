@@ -15,3 +15,5 @@ public class Atividade {
         input.close();
     }  
 }
+
+// Programa onde se utiliza o Input
